@@ -4,11 +4,15 @@
   "main": "index.js",
   "scripts": {
     "treeView": "node ./services/pathView.js",
-    "textReader": "node ./services/textReader.js"
+    "textReader": "node ./services/textReader.js",
+    "test": "jest --coverage --coverageProvider=v8"
   },
   "author": "artyomzinnatullin",
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
