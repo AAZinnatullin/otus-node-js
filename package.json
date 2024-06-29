@@ -1,0 +1,13 @@
+{
+  "name": "otus-node-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./services/pathView.js"
+  },
+  "author": "artyomzinnatullin",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
