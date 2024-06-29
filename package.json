@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./services/pathView.js"
+    "treeView": "node ./services/pathView.js",
+    "textReader": "node ./services/textReader.js"
   },
   "author": "artyomzinnatullin",
   "license": "MIT",
