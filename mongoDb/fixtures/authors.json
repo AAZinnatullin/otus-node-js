@@ -1,0 +1,38 @@
+[
+  {
+    "name": "J.K. Rowling",
+    "birthDate": "1965-07-31"
+  },
+  {
+    "name": "J.R.R. Tolkien",
+    "birthDate": "1892-01-03"
+  },
+  {
+    "name": "F. Scott Fitzgerald",
+    "birthDate": "1896-09-24"
+  },
+  {
+    "name": "J.D. Salinger",
+    "birthDate": "1919-01-01"
+  },
+  {
+    "name": "Harper Lee",
+    "birthDate": "1926-04-28"
+  },
+  {
+    "name": "George Orwell",
+    "birthDate": "1903-06-25"
+  },
+  {
+    "name": "Aldous Huxley",
+    "birthDate": "1894-07-26"
+  },
+  {
+    "name": "Ray Bradbury",
+    "birthDate": "1920-08-22"
+  },
+  {
+    "name": "William Golding",
+    "birthDate": "1911-09-19"
+  }
+]

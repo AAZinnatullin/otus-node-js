@@ -2,3 +2,7 @@
 Repo for course Node.js developer OTUS
 
 ### for run first homework use yarn start fileName
+
+### for run MongoDb homework use:
+    1. yarn mongoFill - for fill mongoDb with data
+    2. yarn mongoSearch - for do prepared requests to mongoDB
