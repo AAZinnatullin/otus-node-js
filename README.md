@@ -11,3 +11,7 @@ Repo for course Node.js developer OTUS
     1. yarn restApi - for run server
     2. open http://localhost:3002/api-docs in browser
     3. use API
+
+### for run Authorization homework use:
+    1. yarn auth - for run server
+    2. do requests in ./authorization/requests.http
