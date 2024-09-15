@@ -1,0 +1,35 @@
+### Get data
+
+# Content-Type: application/json
+
+GET http://localhost:3002/books
+
+###
+
+GET http://localhost:3002/books/1
+
+### Delete data
+
+DELETE http://localhost:3002/books/0
+
+## Add data
+
+###
+POST http://localhost:3002/books
+Content-Type: application/json
+
+{
+  "title": "New book 2",
+    "author": "A. Author 2",
+  "isbn": 1234567890
+}
+
+###
+PUT http://localhost:3002/books/1
+Content-Type: application/json
+
+{
+"title": "Totally new book",
+"author": "The best author ever",
+"isbn": 987654321
+}
