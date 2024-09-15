@@ -1,0 +1,78 @@
+### Success login
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+    "email": "admin@otus.io",
+    "password": "admin"
+}
+
+> {% client.global.set("auth_token", response.headers.valueOf('authorization')); %}
+
+### Open guest page without auth
+GET http://localhost:3003/api/guestPage
+
+### Open guest page with auth
+GET http://localhost:3003/api/guestPage
+Authorization: {{auth_token}}
+
+### Open guest page with wrong auth
+GET http://localhost:3003/api/guestPage
+Authorization: wrong_token
+
+### Open client page without auth
+GET http://localhost:3003/api/clientPage
+
+### Open client page with auth
+GET http://localhost:3003/api/clientPage
+Authorization: {{auth_token}}
+
+### Open client page with wrong auth
+GET http://localhost:3003/api/clientPage
+Authorization: wrong_token
+
+### Not Success login with wrong password
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "email": "admin@otus.io",
+  "password": "test"
+}
+
+### Not Success login with wrong email
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "email": "admin2@otus.io",
+  "password": "admin"
+}
+
+### Not Success login with empty email
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "email": "",
+  "password": "admin"
+}
+
+### Not Success login with empty password
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "email": "",
+  "password": "admin"
+}
+
+### Create new user
+POST http://localhost:3003/api/createUser
+Content-Type: application/json
+
+{
+  "email": "newUser@otus.io",
+  "password": "strongPassword",
+  "username": "newUser"
+}
