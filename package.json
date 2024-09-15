@@ -1,22 +1,23 @@
 {
   "name": "otus-node-js",
   "version": "1.0.0",
-  "main": "restApi/index.js",
+  "main": "restApi/restApp.js",
   "scripts": {
     "start": "node ./services/pathView.js",
-    "restApi": "nodemon restApi/index.js",
+    "restApi": "nodemon restApi/restApp.js",
     "mongoFill": "node mongoDb/src/fillMongoDb.js",
     "mongoSearch": "node mongoDb/src/mongoRequests.js"
   },
   "author": "artyomzinnatullin",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "body-parser": "^1.20.3",
     "commander": "^12.1.0",
     "express": "^4.21.0",
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.2",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }
