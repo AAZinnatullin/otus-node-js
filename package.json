@@ -6,7 +6,8 @@
     "restApi": "nodemon restApi/restApp.js",
     "mongoFill": "node mongoDb/src/fillMongoDb.js",
     "mongoSearch": "node mongoDb/src/mongoRequests.js",
-    "auth": "nodemon authorization/authApp.js"
+    "auth": "nodemon authorization/authApp.js",
+    "ws": "nodemon webSockets/server.js"
   },
   "author": "artyomzinnatullin",
   "license": "MIT",
@@ -19,6 +20,8 @@
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.2",
     "nodemon": "^3.1.4",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   }
