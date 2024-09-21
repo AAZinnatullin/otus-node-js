@@ -15,3 +15,9 @@ Repo for course Node.js developer OTUS
 ### for run Authorization homework use:
     1. yarn auth - for run server
     2. do requests in ./authorization/requests.http
+
+### for run web sockets homework use:
+    1. yarn ws - for run server
+    2. open http://localhost:3000 in browser
+    3. open http://localhost:3000 in another browser
+    4. send messages and check notifications
